@@ -18,13 +18,14 @@ module.exports = {
 	ajaxBaseUrl: `/ajax`,
 
 	// Access-Control-Allow-Origin
-	storeBaseUrl: `http://jcellphone.com`,
+	//storeBaseUrl: `http://jcellphone.com`,
+	storeBaseUrl: 'https://jcellphone.azurewebsites.net', 
 
 	// used by API
 	adminLoginUrl: '/admin/login',
 
-	apiListenPort: 3001,
-	storeListenPort: 3000,
+	apiListenPort: 8081,
+	storeListenPort: 8080,
 
 	// used by API
 	mongodbServerUrl: dbUrl,
